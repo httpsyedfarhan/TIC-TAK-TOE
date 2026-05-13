@@ -1,0 +1,81 @@
+ body{
+    background-color:#FF9A86;
+    font-family: Arial, sans-serif;
+ }
+ 
+ .upper{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#Restart{
+    color: blueviolet;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px black;
+}
+#result{
+    font-size: 40px;
+    color: rgb(202, 231, 147);
+    margin-top: 20px;
+    font-weight: bold;
+}
+ .box{
+    display: flex;
+    flex-wrap:wrap;
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+}
+ .cell{
+    height: 120px;
+    width: 200px;
+    font-size: 80px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px black;
+    border-radius: 10px;
+    color: rgb(37, 117, 221);
+    background-color: rgb(202, 164, 238);
+}
+
+#rstbtn{
+    color: blueviolet;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 17px;
+    padding: 15px;
+  }
+}
